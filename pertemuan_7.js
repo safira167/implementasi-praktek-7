@@ -228,26 +228,8 @@ context.lineTo(1045, 165);
 context.fillStyle = "black";
 context.fill();
 
-// context.beginPath();
-// context.moveTo(992, 115);
-// context.lineTo(920, 200);
-// context.lineTo(970, 210);
-// context.lineTo(1020, 150);
-// context.stroke();
-
-
 context.strokeRect(920, 50, 50, 50);
 context.stroke();
-
-
-// context.beginPath();
-// context.moveTo(592, 115);
-// context.lineTo(550, 230);
-// context.lineTo(600, 230);
-// context.lineTo(620, 150);
-// context.lineWidth = 2;
-// context.stroke();
-
 
 var rect1 = { x: 160, y: 110, width: 35, height: 105 };
 var rect2 = { x: 530, y: -50, width: 35, height: 105 };
