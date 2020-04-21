@@ -1,2 +1,2 @@
 # implementasi-praktek-7
-praktek kerja kelompok menggunakan github dengam mengimplementasikan materi transformasi objek
+praktek kerja kelompok menggunakan github dengan mengimplementasikan materi transformasi objek
