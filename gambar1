@@ -1,0 +1,78 @@
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.lineWidth = 10; 
+ctx.beginPath();
+ctx.moveTo(197, 450);
+ctx.lineTo(403, 450);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(200, 450);
+ctx.bezierCurveTo(100, 400, 100, 270, 230, 270);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(400, 450);
+ctx.bezierCurveTo(500, 400, 500, 270, 370, 270);
+ctx.stroke();
+
+var mycan = document.getElementById("myCanvas");
+var context = mycan.getContext("2d");
+var rectWidth = 80;
+var rectHeight = 125;
+rectX = 290;
+rectY = 150;
+var cornerRadius = 50;
+
+context.beginPath();
+context.moveTo(rectX, rectY);
+context.lineTo(rectX+rectWidth-cornerRadius, rectY);
+context.arcTo(rectX+rectWidth, rectY, rectX+rectWidth, rectY+cornerRadius, cornerRadius);
+context.lineTo(rectX+rectWidth, rectY+rectHeight);
+context.lineWidth = 10;
+context.stroke();
+
+var mycan = document.getElementById("myCanvas");
+var context = mycan.getContext("2d");
+var rectWidth = 80;
+var rectHeight = 125;
+rectX = 310;
+rectY = 150;
+var cornerRadius = 50;
+
+context.beginPath();
+context.moveTo(rectX, rectY);
+context.lineTo(rectX-rectWidth+cornerRadius, rectY);
+context.arcTo(rectX-rectWidth, rectY, rectX-rectWidth, rectY+cornerRadius, cornerRadius);
+context.lineTo(rectX-rectWidth, rectY+rectHeight);
+context.lineWidth = 10;
+context.fillStyle = "#DCDCDC";
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.moveTo(370, 200);
+context.lineTo(370, 115);
+context.stroke();
+
+context.lineWidth = 10;
+context.beginPath();
+context.moveTo(370, 120);
+context.lineTo(450, 120);
+context.lineTo(370, 50);
+context.lineJoin = 'round';
+context.stroke();
+
+context.beginPath();
+context.moveTo(373, 50);
+context.lineTo(170, 50);
+context.lineTo(170, 100);
+context.lineTo(245, 165);
+context.fillStyle = "black";
+context.fill();
+context.stroke();
+
+context.stroke();
+context.strokeRect(120, 50, 50, 50);
+
